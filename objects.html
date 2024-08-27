@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <h1>Objects</h1>
+    <script>
+        let car = {
+            model: "Totyata V8",
+            year: 2022,
+            usesDiesel: true,
+            availableColors: ["silver", "white", "black"],
+            engine:{
+                turbo: true,
+                capacity: 2300,
+                 type: "V8"   
+            },
+            start: function (key){
+                // anonymous function
+                if(key=="albert"){
+                    console.log("Starting !!!!! vrooooooommmmm!")
+                }else{
+                    console.log("wrong key!")
+                }
+            },
+            stop: ()=>{
+                console.log("dStopping");
+                
+            }
+        }
+
+        console.log(car.engine.capacity);
+              
+        car.start("june") // a function inside an object is called a method
+        car.start("albert") // a function inside an object is called a method
+        console.log("Hello World") // console is built-in js object
+        console.error("some error message")
+
+        // JS comes with many built in Objects e.g. console, Math, Date,String, Array, Object, Number, Boolean, e.t.c
+
+        const res = Math.sqrt(49)
+        console.log(res);
+        console.log(Math.PI);
+        
+        let total = 90
+
+        let mycar = Object.create(car) //let mycar inherit all properties and methods from car
+        mycar.model = "Mitsubishi"
+        mycar.start("albert")
+        console.log(mycar);
+
+        const names = ["victor", "esther", "nelly"]
+        console.log(names);
+        console.log(names.reverse());
+            // array, string, number, boolean, object -- automitaclly inherit properties and methods of global respective objects
+    console.log(mycar.model.toUpperCase());
+        const userProfileNAme = "John"
+        console.log( userProfileNAme.charAt(0) );
+        
+
+    // String and Array methods , Number,Dates,Object
+
+    // Explore 5 string methods 
+    // Explore 5 array methods
+    // Javscript objects - 
+    
+    </script>
+</body>
+</html>
