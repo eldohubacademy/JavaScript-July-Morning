@@ -83,7 +83,7 @@ getPrime(23,90)
 // getPrime("twenty three",90)
 // getPrime(20253,90090)
 // Write a function that determines if a given word or number is a palindrome. dad 242 
-// Write a function that calculates the factorial of a given number.
-//  Write a function that counts the number of vowels in a given string.
-// Write a function that finds the greatest common divisor of two numbers.
 
+// Write a function that counts the number of vowels in a given string.
+// Write a function that finds the greatest common divisor of two numbers.
+// Write a function that calculates the factorial of a given number.
