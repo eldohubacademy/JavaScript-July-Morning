@@ -8,8 +8,7 @@ function lengthOfSubstr(input){
             if(substr.includes(input.charAt(innerIndex))){
                 break
             }else{
-                substr = substr + input.charAt(innerIndex)
-                
+                substr = substr + input.charAt(innerIndex)                
             }
         }
         console.log(substr);
