@@ -13,10 +13,14 @@ function countVowels(str){
                 numberOfVowels++
             }
     } )
-    console.log("you string has " + numberOfVowels + " vowels" );
+    // console.log("you string has " + numberOfVowels + " vowels" );
     
      return numberOfVowels
 }
 countVowels(testString)
-countVowels("albert")
+
+
+let result = countVowels("albert")
+console.log(result);
+
 
